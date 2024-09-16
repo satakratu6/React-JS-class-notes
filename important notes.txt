@@ -1,0 +1,5 @@
+component:
+Class based component
+Function based component-(hooks)
+array map method
+spread operator
