@@ -1,16 +1,12 @@
 import React from "react";
-
-function Paragraph(props) {
-  return <p className="a">{props.t}</p>;
+function Paragraph() {
+  return <p>This is the first Paragraph</p>;
 }
-
-function SecondPara() {
-  return <h2 className="b">This is the second paragraph.</h2>;
+function Secondpara() {
+  return <p>This is the second paragraph</p>;
 }
-
-function ThirdPara() {
-  return <h3>This is the third paragraph.</h3>;
+function Thirdpara() {
+  return <p>This is the third paragraph</p>;
 }
-
 export default Paragraph;
-export { SecondPara, ThirdPara };
+export { Secondpara, Thirdpara };
